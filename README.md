@@ -237,7 +237,6 @@ The LLM service handles:
 All errors are surfaced to users with friendly messages and retry suggestions where appropriate.
 
 ## 🗄️ Database Schema
-
 ### `conversations`
 - `id` (UUID, Primary Key)
 - `created_at` (Timestamp)
@@ -336,18 +335,6 @@ The app handles:
 3. **User Experience**: Smooth chat experience with loading states
 4. **Extensibility**: Easy to add new LLM providers or channels
 
-### If I Had More Time
-
-1. **Testing**: Add unit tests for services and integration tests for API
-2. **Caching**: Implement Redis caching for frequently asked questions
-3. **Rate Limiting**: Add per-IP rate limiting to prevent abuse
-4. **Analytics**: Track conversation metrics and common questions
-5. **Multi-turn Context**: Better context window management for longer conversations
-6. **Streaming Responses**: Stream LLM responses for better UX
-7. **Message Reactions**: Allow users to rate responses (thumbs up/down)
-8. **Admin Dashboard**: View conversations and analytics
-9. **WebSocket**: Real-time updates instead of polling
-10. **Message Search**: Search through conversation history
 
 ### Known Limitations
 
@@ -380,12 +367,3 @@ This is a take-home assignment, but the code is structured to be easily extensib
 - Adding more LLM providers
 - Implementing authentication
 - Adding analytics and monitoring
-
-## 📄 License
-
-This project is created for the Spur take-home assignment.
-
----
-
-**Built with ❤️ for Spur**
-
